@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+<head>
+    <title>自习室</title>
+    <link rel="icon" href="images/xi.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Planeto Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+
+    <!--start-smoth-scrolling-->
+</head>
+<body>
+
+<div class="am-g am-g-fixed">
+    <header class="am-topbar am-topbar-fixed-top">
+        <h1 class="am-topbar-brand">
+            <a href="index.html">自习室</a>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+                data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+                class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse mynav" id="doc-topbar-collapse ">
+            <ul class="am-nav am-nav-pills am-topbar-nav ">
+                <li><a href="index.html">首页</a></li>
+                <li class="am-active"><a href="caurse.html">课程</a></li>
+                <li><a href="table.html">课表</a></li>
+                <li><a href="wiki.html">资料</a></li>
+                <li><a href="shequ.html">社区</a></li>
+                <li><a href="about-us.html">关于我们</a></li>
+            </ul>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='logup.html'}">
+                    注册
+                </button>
+            </div>
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='login.html'}">
+                    登录
+                </button>
+            </div>
+            <form class="am-topbar-form am-topbar-right am-form-inline" role="search">
+                <div class="am-form-group">
+                    <button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span> </button>
+                    <input type="text" class="am-form-field am-input-sm" placeholder="搜索">
+                </div>
+            </form>
+        </div>
+
+    </header>
+    <div class="am-u-md-7 am-u-md-offset-1 am-text-left">
+        <div class="crumbs"><a href="caurse.html">课程</a> > <a href="#">WEB基础</a></div>
+    </div>
+    <div class="am-u-md-1 am-text-right">
+        <div class="am-vertical-align" style="height: 45px;">
+            <div class="am-vertical-align-middle">
+                分享：
+            </div>
+        </div>
+    </div>
+    <div class="am-u-md-2 am-u-end am-text-left">
+        <div class="am-vertical-align" style="height: 45px;">
+            <div class="am-vertical-align-middle">
+                <a href="#"><span class="am-icon-qq"> QQ</span></a>
+                <a href="#"><span class="am-icon-weixin"> 微信</span></a>
+                <a href="#"><span class="am-icon-weibo">微博</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-md-12  am-text-center">
+        <video width="1000" controls>
+            <source src="mov_bbb.mp4" type="video/mp4">
+            <source src="mov_bbb.ogg" type="video/ogg">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <div class="am-u-md-3 am-u-md-offset-1 am-text-center ">
+        <br/>
+        <img class="am-circle" src="images/team-3.png"
+             width="140" height="140"/>
+        <br/>
+        <br/>
+
+        <div data-am-widget="tabs"
+             class="am-tabs am-tabs-default"
+                >
+            <ul class="am-tabs-nav am-cf">
+                <li class="am-active"><a href="[data-tab-panel-0]">课程介绍</a></li>
+                <li class=""><a href="[data-tab-panel-1]">老师简介</a></li>
+                <li class=""><a href="[data-tab-panel-2]">资源共享</a></li>
+            </ul>
+            <div class="am-tabs-bd">
+                <div data-tab-panel-0 class="am-tab-panel am-active">
+                    <p class=" am-text-left">本课程带领大家初识Web开发三剑客—HTML5，CSS3及javascript。</p>
+
+                    <p class="am-text-left">课程难度：初级</p>
+
+                    <p class="am-text-left">适合人群：对Web开发感兴趣</p>
+                </div>
+                <div data-tab-panel-1 class="am-tab-panel ">
+                    <p class="am-text-left">老师谈吐风格幽默风趣，形象生动，学员可以从浅入深的理解课堂内容。</p>
+                </div>
+                <div data-tab-panel-2 class="am-tab-panel ">
+                    <p>包含上课相关的ppt及使用工具等资源。</p>
+
+                    <button type="button" class="am-btn am-btn-primary am-btn-block">资料</button>
+                    <button type="button" class="am-btn am-btn-primary am-btn-block">工具</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="am-u-md-7 am-u-end  ">
+        <div data-am-widget="list_news" class="am-list-news am-list-news-default ">
+            <!--列表标题-->
+            <div class="am-list-news-hd am-cf">
+                <!--带更多链接-->
+                <a href="###" class="">
+                    <h2>本期视频</h2>
+                </a>
+            </div>
+
+            <div class="am-list-news-bd">
+                <ul class="am-list">
+                    <li class="am-g">
+                        <a href="#" class="am-list-item-hd ">第一节：HTML5概述</a>
+                    </li>
+                    <li class="am-g">
+                        <a href="#" class="am-list-item-hd ">第二节：CSS3概述</a>
+                    </li>
+                    <li class="am-g">
+                        <a href="#" class="am-list-item-hd ">第三节：Javascript概述</a>
+                    </li>
+                    <li class="am-g">
+                        <a href="#" class="am-list-item-hd ">第四节：三剑客关系</a>
+                    </li>
+                    <li class="am-g">
+                        <a href="#" class="am-list-item-hd ">第五节：实战—初建网站</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="am-u-md-10 am-u-end am-u-md-offset-1">
+        <h3 class="am-padding-top">学习框架：</h3>
+        <img src="images/web-01.jpg" class="am-img-responsive" alt=""/>
+    </div>
+    <div class="am-u-md-10 am-u-end am-u-md-offset-1">
+        <h3 class="am-padding-top">评论：</h3>
+        <article class="am-comment"><a href="#link-to-user-home"><img
+                src="images/team-1.png" alt=""
+                class="am-comment-avatar" width="48" height="48"></a>
+
+            <div class="am-comment-main">
+                <header class="am-comment-hd">
+                    <div class="am-comment-meta"><a href="#link-to-user" class="am-comment-author">祁宏钢</a> 评论于
+                        <time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">2015-12-26
+                            15:30
+                        </time>
+                    </div>
+                    <div class="am-comment-actions"><a href=""><i class="am-icon-pencil"></i></a> <a href=""><i
+                            class="am-icon-close"></i></a></div>
+                </header>
+                <div class="am-comment-bd"><p>
+                    这个问题好难啊！</p>
+                    <blockquote>周子尧：我看看</blockquote>
+                </div>
+                <footer class="am-comment-footer">
+                    <div class="am-comment-actions"><a href=""><i class="am-icon-thumbs-up"></i></a> <a href=""><i
+                            class="am-icon-thumbs-down"></i></a> <a href=""><i class="am-icon-reply"></i></a></div>
+                </footer>
+            </div>
+        </article>
+        <div class="doc-example">
+            <ul class="am-comments-list am-comments-list-flip">
+                <li class="am-comment am-comment-flip am-comment-secondary"><a href="#link-to-user-home"><img
+                        src="images/team-2.png" alt=""
+                        class="am-comment-avatar" width="48" height="48"></a>
+
+                    <div class="am-comment-main">
+                        <header class="am-comment-hd">
+                            <div class="am-comment-meta"><a href="#link-to-user" class="am-comment-author">周子尧</a> 评论于
+                                <time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">
+                                    2015-12-26 23:301
+                                </time>
+                            </div>
+                        </header>
+                        <div class="am-comment-bd"><p><a href="#lurenyi">@祁宏钢</a> 那个简单，我给你讲。</p></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="am-u-md-10 am-u-end am-u-md-offset-1">
+        <div class="am-g">
+            <h3 class="am-padding-left am-padding-top">相关课程：</h3>
+            <ul class="am-avg-sm-3 am-thumbnails">
+                <li>
+                    <a href="#"><img class="am-thumbnail" src="images/html5-01.jpg" /></a>
+                    <h3 class="am-thumbnail-caption">HTML5多媒体技术</h3>
+                </li>
+                <li>
+                    <a href="#"><img class="am-thumbnail" src="images/jquery-01.jpg" /></a>
+                    <h3 class="am-thumbnail-caption">jquery框架入门</h3>
+                </li>
+                <li>
+                    <a href="#"><img class="am-thumbnail" src="images/css3-01.jpg" /></a>
+                    <h3 class="am-thumbnail-caption">CSS3动画特效</h3>
+                </li>
+            </ul>
+            <ul class="am-pagination am-pagination-centered">
+                <li class="am-disabled"><a href="#">&laquo;</a></li>
+                <li class="am-active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+<!--start-footer-->
+<div class="footer">
+    <div class="container">
+        <div class="footer-main">
+            <div class="footer-bottom">
+                <div class="col-md-4 footer-left">
+                </div>
+                <div class="col-md-4 footer-middle">
+                    <div class=" aw-footer">
+                        版权所有 © 2016, 平凡之路工作室</span>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-right">
+                    <p><a href="#home" class="scroll">TO THE TOP</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-footer-->
+
+</body>
+</html>

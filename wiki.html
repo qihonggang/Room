@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自习室</title>
+    <link rel="icon" href="images/xi.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Planeto Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+
+    <!--start-smoth-scrolling-->
+</head>
+<body>
+<!--start-banner-->
+<div class="banner banner1" id="home">
+    <header class="am-topbar am-topbar-fixed-top">
+        <h1 class="am-topbar-brand">
+            <a href="index.html">自习室</a>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse mynav" id="doc-topbar-collapse ">
+            <ul class="am-nav am-nav-pills am-topbar-nav ">
+                <li><a href="index.html">首页</a></li>
+                <li ><a href="caurse.html">课程</a></li>
+                <li><a href="table.html">课表</a></li>
+                <li class="am-active"><a href="wiki.html">资料</a></li>
+                <li><a href="shequ.html">社区</a></li>
+                <li><a href="about-us.html">关于我们</a></li>
+            </ul>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='logup.html'}">注册</button>
+            </div>
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='login.html'}">登录</button>
+            </div>
+            <form class="am-topbar-form am-topbar-right am-form-inline" role="search">
+                <div class="am-form-group">
+                    <button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span> </button>
+                    <input type="text" class="am-form-field am-input-sm" placeholder="搜索">
+                </div>
+            </form>
+        </div>
+
+    </header>
+    <div class="banner-main">
+        <div class="container">
+            <div class="banner-top bnr-top">
+                <h1>在这里，有我需要的资料</h1>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- script-for-menu -->
+<script>
+    $("span.menu").click(function(){
+        $(" ul.navig").slideToggle("slow" , function(){
+        });
+    });
+</script>
+<!-- script-for-menu -->
+<!--end-banner-->
+
+<!--start-carrer-->
+<div class="carrer">
+    <div class="container">
+        <div class="carrer-top">
+            <h3>文档库</h3>
+        </div>
+        <div class="col-md-3 am-padding-left-0">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="搜索文档">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">Go!</button>
+                                </span>
+            </div>
+        </div>
+        <div class="tabs-box">
+            <ul class="tabs-menu">
+                <li><a href="#tab1"><span> </span>IT</a></li>
+                <li><a href="#tab2"><span> </span>法律</a></li>
+                <li><a href="#tab3"><span> </span>金融</a></li>
+            </ul>
+            <div class="clearfix"> </div>
+            <div class="tab-grids">
+                <div id="tab1" class="tab-grid">
+                    <div class="tb-one">
+                        <a href="#"><h3>HTML5 中文教程</h3></a>
+                        <p>HTML5 是近十年来 Web 开发标准最巨大的飞跃。HTML5 并非仅仅用来表示 Web 内容，它将 Web 带入一个成熟的应用平台，在 HTML5 平台上，视频、音频、图象、动画，以及同电脑的交互都被标准化。本教程将教会大家HTML5中的新特性，以及各种标签的使用。</p>
+                     </div>
+                    <div class="tb-one">
+                        <a href="#"><h3>Servlet 教程</h3></a>
+                        <P>Servlet 为构建基于 Web 的应用程序提供了一个基于组件的、独立于平台的方法，没有 CGI 程序的性能限制。Servlet 访问 Java API 的整个家族，包括 JDBC API 来访问企业数据库。本教程将用简单易学的方法教你使用 Java Servlet 开发基于 Web 的应用程序。</P>
+                        </div>
+                    <div class="tb-one">
+                        <a href="#"><h3>MySQL 教程</h3></a>
+                        <P>MySQL 目前是最流行的开源关系型 SQL 数据库管理系统，是一种用于最适于开发 Web 软件应用的 RDBMS。本教程将引领你快速了解 MySQL，熟悉 MySQL 编程知识。</P>
+                    </div>
+                </div>
+                <div id="tab2" class="tab-grid">
+                    <div class="tb-one">
+                        <a href="#"><h3>中华人民共和国合同法(2015)</h3></a>
+                        <p>《中华人民共和国合同法(2015)(含最新司法解释)(实用版)》收录了《中华人民共和国合同法》全文，就重点条文作了详细具体的释义，帮助读者了解法条的精髓；其后收录相关配套规定及提炼的法律流程图、诉讼文书等实用附录，方便读者了解我国合同法领域的法律规定，便于读者日常学习使用。</p>
+                    </div>
+                    <div class="tb-one">
+                        <a href="#"><h3>中华人民共和国刑法总成(2015)</h3></a>
+                        <p>本书是一本实务工作、研究教学、司考学习以及公民查阅，实用便利的工具书。上市连续十版都秉承内容和质量第一的原则，受到广大读者的欢迎和好评。</p>
+                    </div>
+                </div>
+                <div id="tab3" class="tab-grid">
+                    <div class="tb-one">
+                        <a href="#"><h3>国富论</h3></a>
+                        <p>《国富论(全译本)》系统分析了国民财富产生、分配与持续运转的内在规律，围绕如何促进国民财富的增长进行了细致入微的整体描述。虽然它体系庞大，内容广泛，但首尾一贯，结构严密，被誉为现代经济学的开山之作。</p>
+                    </div>
+                    <div class="tb-one">
+                        <a href="#"><h3>经济学原理:微观经济学分册</h3></a>
+                        <p>《经济学原理：微观经济学分册》是目前国内市场上很受欢迎的引进版经济学教材之一，其特点是它的“学生导向”，它更多地强调经济学原理的应用和政策分析，而非经济学模型。</p>
+                    </div>
+                    <div class="tb-one">
+                        <a href="#"><h3>经济学原理:宏观经济学分册</h3></a>
+                        <p>《经济学原理：宏观经济学》的语言简洁明快、清晰易懂，内容深入浅出，几乎涵盖了当代宏观经济学的所有主要领域，并准确、公正地介绍了在经济学界达成共识的主要观点，以及存在分歧的不同学派。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--start-carrer-->
+<!----- Comman-js-files ----->
+<script>
+    $(document).ready(function() {
+        $("#tab2").hide();
+        $("#tab3").hide();
+        $(".tabs-menu a").click(function(event){
+            event.preventDefault();
+            var tab=$(this).attr("href");
+            $(".tab-grid").not(tab).css("display","none");
+            $(tab).fadeIn("slow");
+        });
+    });
+</script>
+<!----- Comman-js-files ----->
+
+<!--start-partner-->
+<div class="partner">
+    <div class="container">
+        <div class="partner-top">
+            <h3>软件库</h3>
+            <br/>
+            <div class="col-md-3 am-padding-left-0 col-md-offset-1 am-fl">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜索软件">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">Go!</button>
+                                </span>
+                </div>
+            </div>
+        </div>
+        <div class="partner-bottom">
+            <div  id="top" class="callbacks_container">
+                <ul class="rslides" id="slider5">
+                    <li>
+                        <div class="part-one">
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-1.png" alt="" />
+                                <div class="part">
+                                    <p>Adobe Creative Suite软件类：Adobe创意套件,是Adobe系统公司出品的一个图形设计、影像编辑与网络开发的软件产品套装。</p>
+                                    <label>自习室</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left prt-1">
+                                <img src="images/prt-2.png" alt="" />
+                                <div class="part">
+                                    <p>Microsoft Office是微软公司开发的一套基于 Windows 操作系统的办公软件套装。常用组件有 Word、Excel、Powerpoint等。</p>
+                                    <label>自习室</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left prt-1">
+                                <img src="images/prt-3.png" alt="" />
+                                <div class="part">
+                                    <p>Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。还可自定义键绑定，菜单和工具栏。</p>
+                                    <label>自习室</label>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="part-one">
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-4.png" alt="" />
+                                <div class="part">
+                                    <p>有道是网易旗下利用大数据技术提供移动互联网应用的子公司。网易有道公司已推出有道词典、有道云笔记、惠惠网、有道推广等一系列产品。</p>
+                                    <label>自习室</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-5.png" alt="" />
+                                <div class="part">
+                                    <p>VMware在虚拟化和云计算基础架构领域处于全球领先地位，所提供的经客户验证的解决方案可通过降低复杂性以及更灵活、敏捷地交付服务来提高IT效率。</p>
+                                    <label>自习室</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-6.png" alt="" />
+                                <div class="part">
+                                    <p>计算机辅助设计(Computer Aided Design)指利用计算机及其图形设备帮助设计人员进行设计工作。</p>
+                                   <label>自习室</label>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="part-one">
+                            <div class="col-md-4 partner-left prt-1">
+                                <img src="images/prt-2.png" alt="" />
+                                <div class="part">
+                                    <p>“Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Nunc sollicitudin a risus vel molestie. Nullam vitae sollicitudin eros. Cras eu venenatis sapien.”</p>
+                                    <label>Adrian - Hover Agency</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left prt-1">
+                                <img src="images/prt-3.png" alt="" />
+                                <div class="part">
+                                    <p>“Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Nunc sollicitudin a risus vel molestie. Nullam vitae sollicitudin eros. Cras eu venenatis sapien.”</p>
+                                    <label>Adrian - Hover Agency</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-1.png" alt="" />
+                                <div class="part">
+                                    <p>“Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Nunc sollicitudin a risus vel molestie. Nullam vitae sollicitudin eros. Cras eu venenatis sapien.”</p>
+                                    <label>Adrian - Hover Agency</label>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="part-one">
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-5.png" alt="" />
+                                <div class="part">
+                                    <p>“Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Nunc sollicitudin a risus vel molestie. Nullam vitae sollicitudin eros. Cras eu venenatis sapien.”</p>
+                                    <label>Adrian - Hover Agency</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-6.png" alt="" />
+                                <div class="part">
+                                    <p>“Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Nunc sollicitudin a risus vel molestie. Nullam vitae sollicitudin eros. Cras eu venenatis sapien.”</p>
+                                    <label>Adrian - Hover Agency</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 partner-left">
+                                <img src="images/prt-4.png" alt="" />
+                                <div class="part">
+                                    <p>“Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Nunc sollicitudin a risus vel molestie. Nullam vitae sollicitudin eros. Cras eu venenatis sapien.”</p>
+                                    <label>Adrian - Hover Agency</label>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!--end-partner-->
+<!--Slider-Starts-Here-->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider5").responsiveSlides({
+            auto: true,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<!--End-slider-script-->
+<br/>
+<br/>
+<br/>
+<!--start-footer-->
+<div class="footer">
+    <div class="container">
+        <div class="footer-main">
+            <div class="footer-bottom">
+                <div class="col-md-4 footer-left">
+                </div>
+                <div class="col-md-4 footer-middle">
+                    <div  class="am-md-text-center aw-footer">
+                        版权所有 © 2016, 平凡之路工作室</span>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-right">
+                    <p><a href="#home" class="scroll">TO THE TOP</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-footer-->
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>自习室</title>
+	<link rel="icon" href="images/xi.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Planeto Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="assets/css/amazeui.min.css">
+
+<link rel="stylesheet" href="assets/css/app.css">
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+<!--start-smoth-scrolling-->
+</head>
+<body>
+<!--start-banner-->
+	<div class="banner" id="home">
+		<header class="am-topbar am-topbar-fixed-top">
+			<h1 class="am-topbar-brand">
+				<a href="index.html">自习室</a>
+			</h1>
+
+			<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+			<div class="am-collapse am-topbar-collapse mynav" id="doc-topbar-collapse ">
+				<ul class="am-nav am-nav-pills am-topbar-nav ">
+					<li class="am-active"><a href="index.html">首页</a></li>
+					<li ><a href="caurse.html">课程</a></li>
+					<li><a href="table.html">课表</a></li>
+					<li><a href="wiki.html">资料</a></li>
+					<li><a href="shequ.html">社区</a></li>
+					<li><a href="about-us.html">关于我们</a></li>
+				</ul>
+
+				<div class="am-topbar-right">
+					<button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='logup.html'}">注册</button>
+				</div>
+				<div class="am-topbar-right">
+					<button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='login.html'}">登录</button>
+				</div>
+				<form class="am-topbar-form am-topbar-right am-form-inline" role="search">
+					<div class="am-form-group">
+						<button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span> </button>
+						<input type="text" class="am-form-field am-input-sm" placeholder="搜索">
+					</div>
+				</form>
+			</div>
+
+		</header>
+
+				<div class="clearfix"></div>
+			<div class="banner-main">
+				<div class="container">
+					<div class="banner-top">
+						<h1>我们在自习室中创造改变世界的力量</h1>
+						<div class="banner-top-btm ">
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<br/>
+					<br/>
+					<br/>
+					<div class="banner-bottom">
+						<div class="banner-slide">
+						<div  id="top" class="callbacks_container">
+							<ul class="rslides" id="slider4">
+								<li>
+									<img src="images/slide-2.png" alt="" />
+								</li>
+								<li>
+									<img src="images/slide-1.png" alt="" />
+								</li>
+								<li>
+									<img src="images/slide-3.png" alt="" />
+								</li>
+			      			</ul>
+							<div class="am-padding-left-lg am-margin-left-lg i-btn  am-text-center">
+								<a class="am-margin-left-sm" href="login.html">进入自习室</a>
+							</div>
+			    		</div>
+						<div class="clearfix"> </div>
+			  		</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	<!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		  <!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->		
+	<!--end-banner-->
+	<!--start-idea-->
+	<div class="idea">
+		<div class="container">
+			<div class="idea-main">
+				<div class="idea-top">
+					<div class="col-md-5 idea-left id-left">
+						<img src="images/index_kecheng.png" style="height: 264px " alt=""  />
+					</div>
+					<div class="col-md-7 idea-right id-right">
+						<br/>
+						<br/>
+						<h3>课程</h3>
+						<p>我们为您准备了最全面、最权威的课程安排，所有的课程都由业内大牛精心制作。内容全面，接地气，实际应用性强。省时省心省力。</p>
+						<div class="i-btn">
+							<a href="caurse.html">准备自习</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="idea-top">
+					<div class="col-md-7 idea-right id-one-left">
+						<h3>课表</h3>
+						<p>在这里您可以自由定制私人课表，自由安排学习计划，并记录学习日志。课表还提供了课前提醒功能，提前准备好您所需要的所有学习资源。有目标有路径，一切尽在掌握之中。</p>
+
+						<div class="i-btn">
+							<a href="table.html">定制课表</a>
+						</div>
+					</div>
+					<div class="col-md-5 idea-left id-one-right">
+						<img src="images/idea-2.png" style="height: 264px;" alt="" />
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<div class="idea-top">
+					<div class="col-md-5 idea-left id-left">
+						<img src="images/idea-1.png" alt="" />
+					</div>
+					<div class="col-md-7 idea-right id-right">
+						<br/>
+						<br/>
+						<h3>资料</h3>
+						<p>内容全面，涵盖所有学习中用到的资源，包括知识体系结构、经典例题、随堂检测、高频真题，并提供了真实的模拟操作环境，真实在线演练。全面透彻理解，真正成为业内达人。</p>
+						<div class="i-btn">
+							<a href="wiki.html">查看资料</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="idea-top">
+				<div class="col-md-7 idea-right id-one-left ">
+					<h3>社区</h3>
+					<p>与名师在线问答，与学友互动交流，及时分享个人心得。有问有答有分享，高手小白共进步。</p>
+					<div class="i-btn">
+						<a href="shequ.html">进入社区</a>
+					</div>
+				</div>
+				<div class="col-md-5 idea-left id-one-right">
+					<img src="images/index_shequ.png" alt="" style="height: 264px;"  />
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!--end-idea-->
+<br/>
+<br/>
+<br/>
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="footer-bottom">
+					<div class="col-md-4 footer-left">
+					</div>
+					<div class="col-md-4 footer-middle">
+						<div class=" aw-footer">
+							版权所有 © 2016, 平凡之路工作室</span>
+						</div>
+					</div>
+					<div class="col-md-4 footer-right">
+						<p><a href="#home" class="scroll">TO THE TOP</a></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-footer-->
+
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+</html>

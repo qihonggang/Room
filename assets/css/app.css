@@ -1,0 +1,46 @@
+/* Write your styles */
+
+.am-topbar{
+    border-style: none;
+}
+
+.team-right p{
+    text-transform: uppercase;
+    color: #7E7E7E;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.am-monospace{
+    text-transform: uppercase;
+    color: #7E7E7E;
+    font-weight: 800;
+}
+
+/*.am-g>[class*=col-], .am-g>[class*=am-u-] {*/
+    /*border: 1px solid #dd514c;*/
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
+/*}*/
+
+.am-g-fixed{
+    max-width: 1300px;
+}
+
+.crumbs>a {
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    color: #bbb;
+    overflow: hidden;
+}
+.crumbs {
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    color: #bbb;
+    overflow: hidden;
+}
+.am-icon-btn.am-primary {
+    background-color: #0e90d2;
+}

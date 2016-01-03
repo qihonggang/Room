@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自习室</title>
+    <link rel="icon" href="images/xi.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Planeto Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+
+    <!--start-smoth-scrolling-->
+</head>
+<body>
+<!--start-banner-->
+<div class="banner banner1" id="home">
+    <header class="am-topbar am-topbar-fixed-top">
+        <h1 class="am-topbar-brand">
+            <a href="index.html">自习室</a>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse mynav" id="doc-topbar-collapse ">
+            <ul class="am-nav am-nav-pills am-topbar-nav ">
+                <li><a href="index.html">首页</a></li>
+                <li class="am-active"><a href="caurse.html">课程</a></li>
+                <li><a href="table.html">课表</a></li>
+                <li><a href="wiki.html">资料</a></li>
+                <li><a href="shequ.html">社区</a></li>
+                <li><a href="about-us.html">关于我们</a></li>
+            </ul>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='logup.html'}">注册</button>
+            </div>
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" onclick="{location.href='login.html'}">登录</button>
+            </div>
+            <form class="am-topbar-form am-topbar-right am-form-inline" role="search">
+                <div class="am-form-group">
+                    <button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span> </button>
+                    <input type="text" class="am-form-field am-input-sm" placeholder="搜索">
+                </div>
+            </form>
+        </div>
+
+    </header>
+    <div class="banner-main">
+        <div class="container">
+            <div class="banner-top bnr-top">
+                <h1>在这里，开始我的自习之旅</h1>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- script-for-menu -->
+<script>
+    $("span.menu").click(function(){
+        $(" ul.navig").slideToggle("slow" , function(){
+        });
+    });
+</script>
+<!-- script-for-menu -->
+
+<!--start-project-->
+<div class="project">
+    <div class="container">
+        <div class="project-top">
+            <h3>课程库</h3>
+        </div>
+        <div class="project-bottom">
+            <div class="portfolios entertain_box  wow fadeInUp" data-wow-delay="0.4s" id="portfolio">
+                <div class="portfolio-top">
+                    <div class="am-u-md-12">
+                    <ul id="filters" class="clearfix">
+                        <li><span class="filter" data-filter="app card icon logo web photo">ALL</span></li>
+                        <li><span class="filter  " data-filter="app">IT</span></li>
+                        <li><span class="filter" data-filter="photo">金融</span></li>
+                        <li><span class="filter" data-filter="card">法律</span></li>
+                        <li><span class="filter" data-filter="icon">考试认证</span></li>
+                    </ul>
+                    </div>
+                    <br/>
+                    <div class="col-md-9">
+                        <h2>
+                            <a href="#"><span class="label label-success">移动开发</span></a>
+                            <a href=""><span class="label label-success">前端开发</span></a>
+                            <a href="#"><span class="label label-success">后端开发</span></a>
+                            <a href="#"><span class="label label-success">基础知识</span></a>
+                            <a href="#"><span class="label label-success">云计算</span></a>
+                            <a href="#"><span class="label label-success">智能硬件</span></a>
+                            <a href="#"><span class="label label-success">数据库</span></a>
+                        </h2>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">Go!</button>
+                                </span>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div id="portfoliolist" class="am-padding-top-0">
+                        <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <a href="study.html" class="b-link-stripe b-animate-go  "  title="Image Title">
+                                <img src="images/port-6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">课程带你从PS的基本界面开始熟悉，通过小案例来学习简单的工具，终极目标就是先揭开PS的面纱，让你掌握PS的基本用法。</h2>
+                            </div></a>
+                            <p class="am-fl">PS入门新手过招</p>
+                            <p class="am-fr">05:07</p>
+                        </div>
+                    </div>
+                        <div class="portfolio photo mix_all" data-cat="photo" style="display: inline-block; opacity: 1;">
+                            <div class="portfolio-wrapper">
+                                <a href="study.html" class="b-link-stripe b-animate-go  "  title="Image Title">
+                                    <img src="images/port-2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">本系列教程将为大家讲解，什么是k线，我们在股票投资中需要重点关注哪些k线的主要技术指标。</h2>
+                                </div></a>
+                                <p class="am-fl">k线理论-股票技术指标详解</p>
+                                <p class="am-fr">15:13</p>
+                            </div>
+                        </div>
+                        <div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+                            <div class="portfolio-wrapper">
+                                <a href="study.html" class="b-link-stripe b-animate-go "  title="Image Title">
+                                    <img src="images/port-3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">老师教你用独创的方法形成你自己的写作模式，有一模版在手，不如一技在手，快速提高托福写作成绩。摆脱纠结，快来听课吧！</h2>
+                                </div></a>
+                                <p class="am-fl">拯救托福写作PS入门新手过招</p>
+                                <p class="am-fr">12:53</p>
+                            </div>
+                        </div>
+                        <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                            <div class="portfolio-wrapper">
+                                <a href="study.html" class="b-link-stripe b-animate-go  "  title="Image Title">
+                                    <img src="images/port-4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">HTML是一种规范，一种标准，它通过标记符号来标记要显示的网页中的各个部分。</h2>
+                                </div></a>
+                                <p class="am-fl">HTML</p>
+                                <p class="am-fr">06:23</p>
+                            </div>
+                        </div>
+                        <div class="portfolio photo mix_all" data-cat="photo" style="display: inline-block; opacity: 1;">
+                            <div class="portfolio-wrapper">
+                                <a href="study.html" class="b-link-stripe b-animate-go "  title="Image Title">
+                                    <img src="images/port-5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">本课程巴黎HEC商学院和清华经管在线立课教育联合推出的顶尖金融课程系列之公司金融系列的第二门课程 </h2>
+                                </div></a>
+                                <p class="am-fl">企业估值（上）</p>
+                                <p class="am-fr">13:35</p>
+                            </div>
+                        </div>
+                        <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                            <div class="portfolio-wrapper">
+                                <a href="study.html" class="b-link-stripe b-animate-go  "  title="Image Title">
+                                    <img src="images/port-1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">你想成为一名精英律师吗？你想拥有优秀的法律检索和研究技能吗？听老师为你详细讲解精英律师的必修课！</h2>
+                                </div></a>
+                                <p class="am-fl">精英律师必修课</p>
+                                <p class="am-fr">13:24</p>
+                            </div>
+                        </div>
+                         </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-project-->
+
+
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $(".swipebox").swipebox();
+    });
+</script>
+<!-- Portfolio Ends Here -->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        var filterList = {
+
+            init: function () {
+
+                // MixItUp plugin
+                // http://mixitup.io
+                $('#portfoliolist').mixitup({
+                    targetSelector: '.portfolio',
+                    filterSelector: '.filter',
+                    effects: ['fade'],
+                    easing: 'snap',
+                    // call the hover effect
+                    onMixEnd: filterList.hoverEffect()
+                });
+
+            },
+
+            hoverEffect: function () {
+
+                // Simple parallax effect
+                $('#portfoliolist .portfolio').hover(
+                        function () {
+                            $(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+                            $(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
+                        },
+                        function () {
+                            $(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+                            $(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+                        }
+                );
+
+            }
+
+        };
+
+// Run the show!
+        filterList.init();
+
+    });
+</script>
+
+<!--分页开始-->
+<ul class="am-pagination am-pagination-centered">
+    <li class="am-disabled"><a href="#">&laquo;</a></li>
+    <li class="am-active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+<!--分页结束-->
+<br/>
+<br/>
+<br/>
+<!--start-footer-->
+<div class="footer">
+    <div class="container">
+        <div class="footer-main">
+            <div class="footer-bottom">
+                <div class="col-md-4 footer-left">
+                </div>
+                <div class="col-md-4 footer-middle">
+                    <div  class="am-md-text-center aw-footer">
+                        版权所有 © 2016, 平凡之路工作室</span>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-right">
+                    <p><a href="#home" class="scroll">TO THE TOP</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-footer-->
+</body>
+</html>
